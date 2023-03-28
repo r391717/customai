@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/customai/static/css/main.b43e6e05.css",
-    "main.js": "/customai/static/js/main.8be54f35.js",
+    "main.js": "/customai/static/js/main.459eec5c.js",
     "index.html": "/customai/index.html",
     "main.b43e6e05.css.map": "/customai/static/css/main.b43e6e05.css.map",
-    "main.8be54f35.js.map": "/customai/static/js/main.8be54f35.js.map"
+    "main.459eec5c.js.map": "/customai/static/js/main.459eec5c.js.map"
   },
   "entrypoints": [
     "static/css/main.b43e6e05.css",
-    "static/js/main.8be54f35.js"
+    "static/js/main.459eec5c.js"
   ]
 }
