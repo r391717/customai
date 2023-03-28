@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/customai/static/css/main.b43e6e05.css",
-    "main.js": "/customai/static/js/main.459eec5c.js",
-    "index.html": "/customai/index.html",
-    "main.b43e6e05.css.map": "/customai/static/css/main.b43e6e05.css.map",
-    "main.459eec5c.js.map": "/customai/static/js/main.459eec5c.js.map"
+    "main.css": "/static/css/main.b43e6e05.css",
+    "main.js": "/static/js/main.459eec5c.js",
+    "index.html": "/index.html",
+    "main.b43e6e05.css.map": "/static/css/main.b43e6e05.css.map",
+    "main.459eec5c.js.map": "/static/js/main.459eec5c.js.map"
   },
   "entrypoints": [
     "static/css/main.b43e6e05.css",
