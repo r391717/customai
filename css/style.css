@@ -777,10 +777,10 @@ label {
   color: var(--background-color);
   background: #fff;
 }
-#contact a {
+#contact .contact-item a {
   color: #fff;
 }
-#contact a:hover {
+#contact .contact-item a:hover {
   color: #adadad;
 }
 /* Footer Section*/
