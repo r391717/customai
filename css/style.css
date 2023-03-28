@@ -262,9 +262,9 @@ header .intro-text {
 }
 #header .btn-wrapper {
   background: var(--background-color);
-  height: 200px;
+  /* background: #1e7a46; */
+  height: 350px;
 }
-
 /* Features Section */
 #features {
   background: #f6f6f6;
@@ -344,7 +344,7 @@ header .intro-text {
   color: var(--main-color);
   font-size: 46px;
 }
-#services i.fa {
+/* #services i.fa {
   font-size: 42px;
   width: 120px;
   height: 120px;
@@ -353,17 +353,17 @@ header .intro-text {
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
-}
+} */
 #services .img-responsive {
   height: 225px;
   margin: auto;
-  opacity: 0.75;
+  opacity: 0.9;
 }
 #services h3 {
   font-weight: 500;
   font-size: 20;
   padding: 5px 0;
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.95);
 }
 #services p {
   color: rgba(255, 255, 255, 0.75);
@@ -373,6 +373,37 @@ header .intro-text {
 }
 #services .service-desc {
   margin-bottom: 40px;
+}
+/* #services i {
+  position: fixed;
+  display: flex;
+  font-size: 32px;
+  margin-bottom: 20px;
+  z-index: 100;
+} */
+#services .icon {
+  position: fixed;
+  /* bottom: 50px;
+  right: 50px; */
+  /* z-index: 10; */
+}
+#services i.fa {
+  font-size: 32px;
+  width: 60px;
+  height: 60px;
+  padding: 11px 0;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 50%;
+  transition: all 0.3s;
+  position: fixed;
+  z-index: 100;
+  bottom: 30px;
+  right: 30px;
+}
+#services i.fa:hover {
+  color:#000;
+  background: #fff;
 }
 /* ServiceDetails0 Section */
 #serviceDetails0 {
@@ -412,6 +443,7 @@ header .intro-text {
   /* background: #fff;  */
   border-right: 0;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+  opacity: 0.95;
 }
 #serviceDetails0 p {
   line-height: 24px;
@@ -604,7 +636,7 @@ header .intro-text {
   margin: 5px 0;
 }
 #team h3 {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.95);
   font-weight: 500;
   margin: 20px 0;
 }
